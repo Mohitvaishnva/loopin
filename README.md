@@ -25,10 +25,10 @@ Transform how communities interact by creating a digital town square where every
 
 ```
 Frontend: React Native / React
-Backend: Node.js + Express
-Database: MongoDB
-Authentication: JWT + OAuth
-Geolocation: MapBox API
+Backend: Node.js 
+Database: Firebase 
+Authentication: Firebase auth
+
 ```
 
 ## 📦 Installation
@@ -43,11 +43,9 @@ cd loopin
 # Install dependencies
 npm install
 
-# Configure environment
-cp .env.example .env
-
 # Start development server
-npm run dev
+npm start
+
 ```
 
 ## 🔮 Roadmap
